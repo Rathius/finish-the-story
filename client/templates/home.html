@@ -1,7 +1,4 @@
 <template name="home">
-	{{#markdown}}
-	Here you'll find tidbits on Web Dev, the occasional rant, and, let's not forget, just typical craziness from the dark recesses of the mind of Rathius. (Hmm, that could be scary stuff!)
-	{{/markdown}}
 	
 	{{#if currentUser.roles.admin}}
 		<a href="/create-post" class="createNewPost">Create New Post</a>
